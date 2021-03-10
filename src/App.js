@@ -26,6 +26,11 @@ handleSubmit = (event) => {
   this.setState({inputValue: ""})
 }
 
+// removeTodo = (event) => {
+//   event.preventDefault()
+//   this.setState({listOfTodos: [...this.state.listOfTodos, this.state.inputValue]})
+// }
+
   render() {
     return (
       <div className="App">
